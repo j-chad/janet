@@ -1,0 +1,18 @@
+version: "3.1"
+
+nlu:
+- intent: out_of_scope/other
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+    - What's the meaning of life?
+    - Can you tell me a joke?
+    - What's the capital of Uzbekistan?
+    - Who won the 1964 World Series?
+    - What's the best way to cook spaghetti?
+    - What's the square root of 169?
+    - Can you help me with my math homework?
+    - How do I fix a leaky faucet?
+    - What's the best way to train a dog?
+    - Can you recommend a good book to read?

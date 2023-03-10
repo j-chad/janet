@@ -1,0 +1,35 @@
+version: "3.1"
+
+nlu:
+- intent: meta/source_code
+  examples: |
+    - Where can I find your source code?
+    - hey can you provide me the code of yours
+    - how can i get the code for you?
+    - how do you work?
+    - is your code available?
+    - source code
+    - what is your source code
+    - what's your source code?
+    - where can I download the source code?
+    - where can i find this code
+    - where is the source code?
+    - where is your source code
+    - what is your github link
+    - yes with your source code
+    - source
+    - github link?
+
+- intent: meta/restart
+  examples: |
+    - yep you can restart
+    - Please restart
+    - ok restart please
+    - please restart janet
+    - restart this conversation
+    - i want to restart
+    - why don't you restart
+    - hey, i said restart
+    - restart session pls
+    - restart
+    - time for a reboot

@@ -129,6 +129,19 @@ responses:
   - text: "Sorry for the trouble. How can I assist you now?"
   - text: "I'm sorry for the misunderstanding. What can I do to help you further?"
 
+  utter_out_of_scope:
+  - text: "Sorry, I can't handle that request."
+  - text: "I'm sorry, but that's not something I can help you with."
+  - text: "Unfortunately, I'm not equipped to handle that request."
+  - text: "That's not really within my area of expertise. Can I help you with something else?"
+  - text: "I'm afraid I can't assist you with that. Is there something else I can help with?"
+  - text: "Sorry, but that's not something I'm capable of helping you with. Do you have another question?"
+  - text: "I don't have the knowledge to help you with that. Can I assist you with something else?"
+  - text: "I'm sorry, that's not within my range of abilities. Can you ask me something else?"
+  - text: "That's not something I'm able to help you with. Do you have another question in mind?"
+  - text: "Unfortunately, I don't have the necessary skills to help with that. Can I help you with something else?"
+  - text: "I'm sorry, I'm not able to assist with that request. Can you try asking me something different?"
+
 
 session_config:
   session_expiration_time: 60
