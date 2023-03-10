@@ -39,4 +39,4 @@ Contributions to Janet are welcome! To contribute, please fork the repository, m
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GPLv3 License](LICENSE).

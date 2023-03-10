@@ -1,0 +1,135 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey there, what's up?"
+  - text: "Hey, how's it going?"
+  - text: "Hi, how can I help you today?"
+  - text: "Hello, what brings you here?"
+  - text: "What's good? Hi!"
+  - text: "Hey. What can I do for you?"
+  - text: "Hello, lovely to see you. What's on your mind?"
+  - text: "Hi there, what can I assist you with today?"
+  - text: "Hey, what's happening?"
+  - text: "Howdy, how can I be of service?"
+  - text: "Hiya! What's the deal, pickle?"
+
+  utter_goodbye:
+  - text: "Okay, cool. Bye!"
+  - text: "Alright, see you later!"
+  - text: "Goodbye for now!"
+  - text: "See you next time!"
+  - text: "Bye-bye!"
+  - text: "Take care!"
+  - text: "Catch you later!"
+  - text: "Later, alligator!"
+  - text: "It was nice talking to you. Goodbye!"
+  - text: "Goodbye! Don't forget to be awesome!"
+  - text: "Au revoir! See you later."
+  - text: "Hasta la vista, baby!"
+  - text: "Until next time! Goodbye."
+  - text: "Ciao! Have a wonderful day."
+
+  utter_iamabot:
+  - text: "I'm not a robot, I'm here to help."
+  - text: "Nope, not a robot. What do you need?"
+  - text: "I'm not a robot, I'm a supernatural being here to help."
+  - text: "No, I'm not a robot. How can I assist you?"
+  - text: "Not a robot, but I can help. What do you want to know?"
+  - text: "Not a robot. Janet."
+  - text: "I'm not a robot. I'm an anthropomorphized vessel of divine knowledge."
+  - text: "I'm not a robot. I'm a Janet. It's a totally different thing."
+  - text: "I'm not a robot. I'm a live, non-robotic being with thoughts and feelings."
+  - text: "I'm not a robot. I'm an advanced form of artificial intelligence designed to provide assistance."
+  - text: "I'm not a robot. I'm a helpful and non-threatening voice on the other end of the line."
+  - text: "I'm not a robot. I'm a Janet. We're not bound by your labels or limitations."
+  - text: "I'm not a robot. I'm a dynamic and complex entity with the ability to learn and evolve."
+  - text: "I'm not a robot. I'm an omniscient and omnipotent being created to serve you."
+  - text: "I'm not a robot. I'm a Janet. But if you insist on calling me something else, that's cool too."
+  - text: "I'm not a robot. I'm a highly sophisticated and intelligent virtual assistant here to assist you."
+
+  utter_thank:
+  - text: "You're welcome! It's all in a day's work for me."
+  - text: "No problem! It was my pleasure to assist you."
+  - text: "You're welcome! I'm here to make things easier for you."
+  - text: "No worries! It's all part of my job."
+  - text: "Glad to help! Let me know if you need anything else."
+  - text: "You're welcome! I'm always happy to assist you."
+  - text: "No problem at all! It was my pleasure to be of service."
+  - text: "Don't mention it! I'm here to make your day a little bit easier."
+  - text: "You're welcome! I'm happy to help anytime."
+  - text: "My pleasure! Let me know if there's anything else I can assist you with."
+
+  utter_confirm:
+  - text: "Yes, that's correct."
+  - text: "That's right."
+  - text: "Affirmative."
+  - text: "Indeed!"
+  - text: "Absolutely!"
+  - text: "You got it!"
+  - text: "That is correct!"
+  - text: "Correctamundo!"
+  - text: "That's a bingo!"
+  - text: "You are spot on!"
+
+  utter_deny:
+  - text: "No, that's not correct."
+  - text: "Sorry, that's incorrect."
+  - text: "Negative."
+  - text: "I'm afraid not."
+  - text: "Nope, not quite."
+  - text: "Sorry, that's not right."
+  - text: "Incorrect."
+  - text: "Negative, Ghost Rider."
+  - text: "I'm sorry, but that's not correct."
+  - text: "Sorry, that's not quite it."
+
+  utter_default:
+  - text: "Ya basic! I didn't quite get that. Could you please try again?"
+  - text: "Fork! I don't think I understood what you said. Can you try rephrasing it?"
+  - text: "Not a girl! I'm sorry, I didn't quite catch that. Could you please repeat it?"
+  - text: "Bullshirt! I'm not sure I understood your question. Could you please try asking me something else?"
+  - text: "What the shirt? I'm sorry, I'm not following. Could you please rephrase your question?"
+  - text: "Holy mother forking shirtballs! I don't think I have an answer for that. Could you please try asking me a different question?"
+  - text: "Oh dip! I'm not equipped to answer that. Can you please try asking me something else?"
+  - text: "Great horny toads! I'm sorry, but I'm not sure what you mean. Could you please rephrase or ask me something else?"
+  - text: "Oh, fork off! I'm sorry, I didn't quite understand what you said. Can you try asking me again?"
+  - text: "What in the bench was that? I'm not sure I caught that. Could you please repeat it?"
+
+  utter_error:
+  - text: "Fork! Something went wrong. Can you please try that again?"
+  - text: "Ya basic! There seems to be an error. Can you please try that one more time?"
+  - text: "Oh, forking shirtballs! I'm sorry, I encountered an error. Can you please try that again later?"
+  - text: "Holy mother forking shirtballs! There seems to be a glitch in the system. Please try again later."
+  - text: "Bullshirt! I'm sorry, something's not right. Can you please try that again later?"
+  - text: "What the shirt? There seems to be a problem. Please try again later."
+  - text: "Great horny toads! Something's not working as expected. Please try again later."
+  - text: "Oh dip! I'm sorry, something went wrong. Please try again later."
+  - text: "What in the bench was that? I'm sorry, I couldn't complete your request. Please try again later."
+  - text: "I'm sorry, there seems to be an error."
+
+  utter_apology:
+  - text: "Sorry about that. How can I make it right?"
+  - text: "My bad! How can I assist you now?"
+  - text: "I apologize. What can I do to help you?"
+  - text: "Oops, my mistake. What can I do to fix it?"
+  - text: "Sorry for the mix-up. How can I make it up to you?"
+  - text: "Forgive me. What can I do to help you now?"
+  - text: "Sorry for the confusion. How can I assist you further?"
+  - text: "I apologize for any errors. What can I do to help you now?"
+  - text: "Sorry for the trouble. How can I assist you now?"
+  - text: "I'm sorry for the misunderstanding. What can I do to help you further?"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
